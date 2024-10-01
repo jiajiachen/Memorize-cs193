@@ -17,7 +17,6 @@ struct ContentView: View {
             ScrollView {
                 cards
             }
-            }
             Spacer()
             cardCountAdjusters
         }
