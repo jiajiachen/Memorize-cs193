@@ -62,6 +62,7 @@ struct CardView: View {
             base.fill()
                 .opacity(card.isFaceUp ? 0 : 1) // 相当于mask 蒙板
         }
+        .opacity(card.isFaceUp || !card.isMatched ? 1 : 0)
     }
 }
 
